@@ -12,6 +12,7 @@ public class User {
 	@Size(min = 3)
 	private String name;
 	
+	@Past
 	private Date birthDate;
 	
 
